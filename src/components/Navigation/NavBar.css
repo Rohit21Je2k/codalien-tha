@@ -1,0 +1,15 @@
+.navbar {
+    padding: 15px 0;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

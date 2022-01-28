@@ -1,0 +1,45 @@
+.login-page__form-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.login-page__title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.login-page__para {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.login-page__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.login-page__form-label {
+    font-size: 18px;
+}
+
+.login-page__form-input {
+    height: 45px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-page__form-btn {
+    height: 50px;
+    margin-top: 20px;
+    border: 0;
+    background: var(--primary);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}

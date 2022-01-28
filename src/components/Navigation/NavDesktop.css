@@ -1,0 +1,44 @@
+.navbar-desktop__menu {
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-desktop__menu-item {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(66, 66, 66);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-desktop__menu-item.hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: var(--primary);
+    position: absolute;
+    top: 42px;
+    left: 0;
+    opacity: 0;
+    transition: opacity ease-in-out 300ms;
+}
+
+.navbar-desktop__menu-item.hover:hover::after {
+    opacity: 1;
+}
+
+.navbar-desktop__login-btn {
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 999px;
+    background: var(--primary);
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
